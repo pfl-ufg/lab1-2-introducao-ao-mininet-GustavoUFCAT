@@ -1,0 +1,12 @@
+*** Iperf: testing TCP bandwidth between h1 and h2
+*** Results: ['93.9 Mbits/sec', '110 Mbits/sec' ]
+
+*** Iperf: testing UDP bandwidth between h1 and h2
+*** Results: ['10M', '9.68 Mbits/sec', '9.68 Mbits/sec' ]
+
+mininet> h1 ping h2
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq =1 ttl=64 time 25.8 ms
+64 bytes from 10.0.0.2: icmp_seq =1 ttl=64 time 21.3 ms
+64 bytes from 10.0.0.2: icmp_seq =1 ttl=64 time 21.7 ms
+64 bytes from 10.0.0.2: icmp_seq =1 ttl=64 time 21.1 ms
